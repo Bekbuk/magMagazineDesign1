@@ -2,12 +2,67 @@
 <html>
 <head>
     <title></title>
-    <link type="text/css" href="Style/main.css">
+    <link type="text/css" href="Style/main.css" rel="stylesheet">
 </head>
 <body>
 <div class="page">
-    <div class="header"></div>
-    <div class="slider"></div>
+    <div class="header">
+        <div class="topmenu">
+            <div class="float_r">
+                <div style="float: left;line-height: 24px">
+                <ul >
+                    <li class="first">My Cart</li>
+                    <li>Log In</li>
+                </ul></div>
+
+            </div>
+            <div class="clear"></div>
+        </div>
+        <a class="Logo">
+            <img src="Style/Images/logo.gif" alt="Logo">
+        </a>
+
+        <div class="float_r">
+            <div  class="float_l">
+            <ul id="nav">
+                <li><a href=""> Bras</a></li>
+                <li><a href=""> Panties</a></li>
+                <li><a href=""> Tops </a></li>
+                <li><a href=""> Swim</a></li>
+            </ul>
+            </div>
+        <form  class="float_l" id="search_mini_form" action="http://cms.template-help.com/magento_29517/catalogsearch/result/" method="get">
+            <div class="indent-search">
+                <div class="form-search">
+                    <label for="search">Search:</label>
+                    <input id="search" type="text" name="q" value="" class="input-text" autocomplete="off">
+                    <button type="submit" title="Search" class="button">Search</button>
+                    <div id="search_autocomplete" class="search-autocomplete" style="display: none;"></div>
+                    <script type="text/javascript">
+                        //<![CDATA[
+                        var searchForm = new Varien.searchForm('search_mini_form', 'search', 'Search entire store here...');
+                        searchForm.initAutocomplete('http://cms.template-help.com/magento_29517/catalogsearch/ajax/suggest/', 'search_autocomplete');
+                        //]]>
+                    </script>
+                </div>
+            </div>
+        </form>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="index_cont">
+        <div class="preview"></div>
+        <div class="new_content"></div>
+    </div>
+    <div class="maincontent">
+
+
+    </div>
+
+
+</div>
+<div class="footer">
+    <div class="page"></div>
 </div>
 </body>
 </html>
