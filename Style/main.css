@@ -94,11 +94,11 @@ body {
 #nav > li.last{ border:none; padding-right:0;}
 #nav > li.last a{ margin-right:0;}
 #nav > li:hover {}
-#nav > li:hover > a{ color:#fff; background:url(../images/nav-bg.gif) top repeat-x;}
+#nav > li:hover > a{ color:#fff; background:url(images/nav-bg.gif) top repeat-x;}
 #nav > li.over,
 #nav > li.active {}
 #nav > li.over > a,
-#nav > li.active > a {color:#fff; background:url(../images/nav-bg.gif) top repeat-x;}
+#nav > li.active > a {color:#fff; background:url(images/nav-bg.gif) top repeat-x;}
 #nav > li.parent:hover > a > span, #nav > li.parent.active > a > span{}
 #nav > li.parent a{ }
 
